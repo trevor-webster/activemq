@@ -1,0 +1,58 @@
+PS C:\Users\Trevor.Webster> az acr show -n vdhmule
+{
+  "adminUserEnabled": true,
+  "anonymousPullEnabled": false,
+  "creationDate": "2022-04-30T23:29:38.628550+00:00",
+  "dataEndpointEnabled": false,
+  "dataEndpointHostNames": [],
+  "encryption": {
+    "keyVaultProperties": null,
+    "status": "disabled"
+  },
+  "id": "/subscriptions/76784e20-9d7e-46a3-a9e8-22307b7ea397/resourceGroups/rg-vdh-mulesoft-activemq/providers/Microsoft.ContainerRegistry/registries/vdhmule",
+  "identity": null,
+  "location": "usgovvirginia",
+  "loginServer": "vdhmule.azurecr.us",
+  "name": "vdhmule",
+  "networkRuleBypassOptions": "AzureServices",
+  "networkRuleSet": null,
+  "policies": {
+    "exportPolicy": {
+      "status": "enabled"
+    },
+    "quarantinePolicy": {
+      "status": "disabled"
+    },
+    "retentionPolicy": {
+      "days": 7,
+      "lastUpdatedTime": "2022-04-30T23:29:39.355786+00:00",
+      "status": "disabled"
+    },
+    "trustPolicy": {
+      "status": "disabled",
+      "type": "Notary"
+    }
+  },
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": "Enabled",
+  "resourceGroup": "rg-vdh-mulesoft-activemq",
+  "sku": {
+    "name": "Standard",
+    "tier": "Standard"
+  },
+  "status": null,
+  "systemData": {
+    "createdAt": "2022-04-30T23:29:38.628550+00:00",
+    "createdBy": "Trevor.Webster@vermont.gov",
+    "createdByType": "User",
+    "lastModifiedAt": "2022-04-30T23:52:21.048630+00:00",
+    "lastModifiedBy": "Trevor.Webster@vermont.gov",
+    "lastModifiedByType": "User"
+  },
+  "tags": {
+    "OU": "AHS"
+  },
+  "type": "Microsoft.ContainerRegistry/registries",
+  "zoneRedundancy": "Disabled"
+}
